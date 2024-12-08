@@ -2,12 +2,10 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   return NextResponse.json({
-    boosts: [
+    users: [
       {
-        boostId: "bst_123",
-        type: "performance",
-        multiplier: 2,
-        duration: "24h"
+        userId: "123456789",
+        badgeType: "boost"
       }
     ]
   });
