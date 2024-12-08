@@ -4,7 +4,7 @@ export async function GET() {
   return NextResponse.json({
     users: [
       {
-        userId: "123456789",
+        userId: "5361189550",
         badgeType: "winter"
       }
     ]
