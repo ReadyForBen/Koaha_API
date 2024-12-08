@@ -2,12 +2,10 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   return NextResponse.json({
-    bugs: [
+    users: [
       {
-        bugId: "bug_123",
-        title: "Performance Issue",
-        status: "open",
-        priority: "high"
+        userId: "123456789",
+        badgeType: "bug"
       }
     ]
   });
